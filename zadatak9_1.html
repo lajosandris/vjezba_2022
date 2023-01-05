@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="#" method="post">
+
+        <header>
+            <h2>Responzivna forma</h2>
+        </header>
+
+        <div>
+             <label id="imeipr" for="Ime1">Ime i prezime</label> 
+       <div>
+        <input id="Ime1" name="Ime1" type="text" size="8" tabindex="1"> 
+    </div>
+</div>
+
+<div>
+    <label for="Field3" id="title3">
+        Email
+    </label>
+<div><input type="email" name="Field3" id="Field3" spellcheck="false" value="" maxlength="255" tabindex="3">
+</div> 
+</div>
+
+<div>
+    <label for="Field4" id="title4" class="desc">
+        Poruka
+    </label>
+    <div>
+        <textarea name="" id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+    </div>
+</div>
+    
+
+    <div>
+        <fieldset>
+            <legend id="title5">Odaberi</legend>
+            <div>
+                <input type="hidden" value="" name="Field5" id="radioDefault_5">
+            <div>
+                <input type="radio" name="Field5" id="Field5_0" value="PrviOdabir" tabindex="5" checked="checked">
+                <label  class="choice" for="Field5_0">Prvi Odabir</label>
+            </div>
+            
+            <input type="radio" name="Field5" id="Field5_1" value="DrugiOdabir" tabindex="6">
+            <label for="Field5_1" class="choice">Drugi Odabir</label>
+
+            <input type="radio" name="Field5" id="Field5_2" value="TrecciOdabir" tabindex="7">
+            <label for="Field5_2" class="choice">Treci Odabir</label>
+        </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend id="title6">Visestruki odabir</legend>
+
+            <div>
+                <div>
+
+                <input type="hidden" value="" name="Field6" id="radioDefault_5">
+            
+                <input type="checkbox" name="Field6" id="Field6" value="PrviOdabir" tabindex="8" checked="checked">
+                <label  class="choice" for="Field6">Prvo</label>
+            </div>
+            <div>
+            
+            <input type="checkbox" name="Field7" id="Field7" value="DrugiOdabir" tabindex="9">
+            <label for="Field7" class="choice">Drugo</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Field8" id="Field8" value="TrecciOdabir" tabindex="10">
+            <label for="Field8" class="choice">Trece</label>
+        </div>
+    </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <label for="Field10" id="title10">
+            Odaberi s liste 
+        </label>
+        <div>
+            <select name="Field10" id="title10" tabindex="11">
+                <option value="1odab">Prvi</option>
+                <option value="2odab">Drugi</option>
+                <option value="3odab">Treci</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <input type="submit" name="saveform" id="saveform" value="Potvrdi">
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
