@@ -7,36 +7,62 @@
     <title>Document</title>
 </head>
 <body>
-   
-    <form action="#" method="post">
+    <header>
+        <h2>Responzivna forma</h2>
+    </header>
 
-        <header>
-            <h2>Responzivna forma</h2>
-        </header>
+    <table>
+        <tr>
 
-        <div>
-             <label id="imeipr" for="Ime1">Ime i prezime</label> 
-       <div>
-        <input id="Ime1" name="Ime1" type="text" size="8" tabindex="1"> 
-    </div>
-</div>
+            <form action="#" method="post">
+                <td>
+        
+                <div>
+                     <label id="imeipr" for="Ime1">Ime i prezime</label> 
+                    <div>
+                <input id="Ime1" name="Ime1" type="text" size="8" tabindex="1"> 
+                    </div>
+                </div>
+            </td>
+            <td >
+                <div>
+                    <label for="Field4" id="title4" class="desc">
+                        Poruka
+                    </label>
 
-<div>
-    <label for="Field3" id="title3">
-        Email
-    </label>
-<div><input type="email" name="Field3" id="Field3" spellcheck="false" value="" maxlength="255" tabindex="3">
-</div> 
-</div>
+                    <div>
+                        <textarea name="" id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <td rowspan="1">
+            <div>
+                <label for="Field3" id="title3">
+                    Email
+                </label>
+            <div><input type="email" name="Field3" id="Field3" spellcheck="false" value="" maxlength="255" tabindex="3">
+            </div> 
+            </div>
+        </td>
 
-<div>
-    <label for="Field4" id="title4" class="desc">
-        Poruka
-    </label>
+
+        <tr>
+            <td>     
     <div>
-        <textarea name="" id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+        <div>
+            <input type="submit" name="saveform" id="saveform" value="Potvrdi">
+        </div>
     </div>
-</div>
+            </td>
+
+        </tr>
+    </table>
+   
+   
+
+
+
     
 
     <div>
@@ -96,11 +122,6 @@
         </div>
     </div>
 
-    <div>
-        <div>
-            <input type="submit" name="saveform" id="saveform" value="Potvrdi">
-        </div>
-    </div>
 </form>
 
 </body>
